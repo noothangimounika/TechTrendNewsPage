@@ -146,10 +146,25 @@
 
 
 .news-List{
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-left: 180px;
     
 }
 .newInnerpages{
+    margin-top: 20px;
+}
+.newsInnerPage1{
+    display: flex;
+}
+.newsInnerPage1 .list1{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.newsInnerPage2{
+    display: flex;
+}
+.newsInnerPage2 .list1{
+    margin-left: 50px;
     margin-top: 20px;
 }
 .newsInnerPage3{
@@ -202,6 +217,13 @@
   margin-top: 20px;
 }
 
+.newsInnerPage9{
+    display: flex;
+}
+.newsInnerPage9 .list1{
+    margin-left: 50px;
+    margin-top: 20px;
+}
 
 .newInnerpages img{
     
@@ -212,3 +234,16 @@
     transition: all 0.5s ease;
  }
  
+
+
+
+ .newInnerpages a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s ease;
+ }
+ .newInnerpages a:hover{
+    text-decoration: none;
+    color:blue;
+    font-size: 22px;
+ }
