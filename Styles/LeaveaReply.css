@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+.leave-a-reply-div{
+    /* margin-left: 150px; */
+    margin-bottom: 60px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.leave-a-reply-div h1{
+    margin-bottom: 30px;
+}
+.leave-a-reply-div p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+.leave-a-reply-div form label{
+   font-size: 22px;
+  
+}
+.leave-a-reply-div form input{
+    width: 400px;
+    height: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.leave-a-reply-div form ::placeholder{
+ font-size: 22px;
+ padding: 20px;
+}
+
+#Post-Comment{
+    width: 200px; 
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    transition: all 0.5s ease;
+}
+#Post-Comment:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.leave-a-reply-div button{
+    margin-left: 30px;
+    width: 200px; 
+    border-radius: 10px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    transition: all 0.5s ease;
+ }
+ .leave-a-reply-div button:hover{
+    background-color: aqua;
+    color: black;
+ }
+ 
+.author-btn a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  
+}
+.author-btn a:hover{
+    color: black;
+}
+.author-btn button{
+    border: none;
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 50px;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+    margin-left: 150px;
+
+}
+.author-btn button:hover{
+    background-color: rgb(51, 161, 204);
+    border:2px solid black;
+}
+form input{
+    font-size: 20px;
+    padding: 10px;
+}

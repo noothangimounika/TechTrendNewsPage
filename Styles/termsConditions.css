@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.term-condition-bg{
+    background-image: url(../Images/Terms-&-Conditions-bg.jpg);
+    height: 800px;
+    width: 1450px;
+    margin-top: 50px;
+    background-position: center;
+    background-size: cover;
+}
+.term-condition-bg h1{
+    padding-top: 720px;
+    text-align: center;
+    margin-left: 450px;
+    font-size: 50px;
+    
+}
+.terms-text{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 18px;
+    font-weight: 400px;
+    color: rgb(75, 70, 70);
+}
+.terms-text p{
+    margin-top: 50px;
+}
+.term-condition-bg1{
+    margin-top: 100px;
+    background-image: url(../Images/Terms-&-Conditions-bg2.jpg);
+    
+    height: 800px;
+    width: 1450px;
+    margin-top: 150px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 50px;
+ 
+}
+
+.term-condition-bg1 h1{
+    padding-top: 200px;
+    margin-bottom: 30px;
+    font-size: 70px;
+    
+}
+.term-condition-bg1 h3{
+    font-size: 25px;
+    color: rgb(82, 129, 160);
+    margin-bottom: 50px;
+}
+.term-condition-bg1 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: all 0.5s ease;
+}
+.term-condition-bg1 a:hover{
+    color: black;
+}
+.term-condition-bg1 button{
+   background-color: black;
+   border: 2px black solid;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+.term-condition-bg1 button:hover{
+    border: 3spx black solid;
+    transform: scale(1.1);
+    background-color: transparent;
+}

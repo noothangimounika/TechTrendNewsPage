@@ -117,16 +117,21 @@
             <p>Your email address will not be published. Required fields are marked *</p>
             <form action="" method="post"> 
                 <label for="">Comment</label> <br>
-                <input type="text" name="text" placeholder="Write Comment Here" style="height: 150px; width: 500px;" required> <br>
-
+<!--                 
+                <input type="text" name="text" placeholder="Write Comment Here" style="height: 150px; width: 500px;" required> <br> -->
+                <textarea placeholder="Write Comment Here" style="height: 150px; width: 500px; border-radius: 10px; transition: 0.5s; font-size: 20px; padding: 10px;" required id=""></textarea> <br>
                 <label for="">Name *</label> <br>
                 <input type="text" name="name" placeholder="Enter Name"> <br>
 
                 <label for="">Email *</label> <br>
                 <input type="email" name="email" placeholder="Enter Your Email " required> <br>
 
-                <input type="submit" value="Post Comment"  id="Post-Comment">
+                <div class="btn">
+                    <input type="submit" value="Post Comment"  id="Post-Comment">
+                <button id="clear" >Cancel</button>
+                </div>
             </form>
+            <script src="comment.js"></script>
         </div>
     </div>
 

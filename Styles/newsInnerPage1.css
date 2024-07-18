@@ -55,7 +55,7 @@
 }
 .img-news img{
     margin-top: 50px;
-    height: 900px;
+    height: 700px;
     width: 600px;
     margin-bottom: 50px;
     border-radius: 10px;
@@ -79,6 +79,8 @@
     text-decoration: underline;
     cursor: pointer;
 }
+
+
 .author-btn a{
     color: white;
     font-size: 20px;
@@ -143,6 +145,8 @@
     background-color: aqua;
     color: black;
 }
+
+
 
 
 .news-List{
@@ -248,3 +252,26 @@
     font-size: 22px;
  }
 
+
+
+form input{
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+ .leave-a-reply-div button{
+    margin-left: 30px;
+    width: 200px; 
+    border-radius: 10px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    transition: all 0.5s ease;
+ }
+ .leave-a-reply-div button:hover{
+    background-color: aqua;
+    color: black;
+ }

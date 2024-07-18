@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leave a Reply</title>
+    <link rel="stylesheet" href="Styles/LeaveaReply.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="leave-a-reply-div">
+            <h1>Leave a Reply</h1>
+            <p>Your email address will not be published. Required fields are marked *</p>
+            <form action="" method="post"> 
+                <label for="">Comment</label> <br>
+             
+               
+                <textarea placeholder="Write Comment Here" style="height: 150px; width: 500px; border-radius: 10px; transition: 0.5s; font-size: 20px; padding: 10px;" required id=""></textarea> <br>
+                <label for="">Name *</label> <br>
+                <input type="text" name="name" placeholder="Enter Name"> <br>
+
+                <label for="">Email *</label> <br>
+                <input type="email" name="email" placeholder="Enter Your Email " required> <br>
+
+                <div class="btn">
+                    <input type="submit" value="Post Comment"  id="Post-Comment">
+                <button id="clear" >Cancel</button>
+                </div>
+            </form>
+            <script src="comment.js"></script>
+        </div>
+
+
+        <div class="author-btn">
+            <button>
+                <a href="newsPage.html">Go News page</a>
+            </button>
+        </div>
+
+
+    </div>
 </body>
 </html>
