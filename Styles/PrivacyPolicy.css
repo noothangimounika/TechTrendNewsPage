@@ -82,9 +82,16 @@ html{
 
 .logo img {
     height: 100px;
-    width: 280px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 100%;
 }
-
+.footer img{
+    height: 100px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 100%;
+}
 .nav {
     margin-left: 200px;
     margin-right: 20px;
@@ -278,6 +285,8 @@ tr:hover {
 
 
 
+
+
 .footer{
     background-image: url(../Images/nav-footer-bg-img.jpg);
     background-size: cover;
@@ -304,4 +313,15 @@ tr:hover {
 }
 .footer li a:hover{
     color: orangered;
+}
+.icons i{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+}
+.icons i:hover{
+ font-size: 35px;   
+ color: gray;
+ transform: scale(1.1);
 }

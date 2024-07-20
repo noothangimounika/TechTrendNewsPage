@@ -5,7 +5,7 @@
     font-family: "Roboto", sans-serif;
 }
 .news{
-    margin-top: 50px;
+    margin-top: 200px;
     margin-left: 150px;
 }
 .news h1{
@@ -200,7 +200,15 @@
 
 .logo img {
     height: 100px;
-    width: 280px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 100%;
+}
+.footer img{
+    height: 100px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 100%;
 }
 
 .nav {
@@ -388,10 +396,10 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #f1f1f1;
 }
-.container h3{
+/* .container h3{
     font-size: 30px;
     padding: 10px;
-}
+} */
 
 
 
@@ -422,4 +430,15 @@ tr:hover {
 }
 .footer li a:hover{
     color: orangered;
+}
+.icons i{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+}
+.icons i:hover{
+ font-size: 35px;   
+ color: gray;
+ transform: scale(1.1);
 }
